@@ -52,7 +52,7 @@ Bertugas mendistribusikan permintaan dari pengguna ke VM1 dan VM2. Ini memastika
 ### Total Harga :
 ![Screenshot 2024-06-14 111808](https://github.com/ch0clat/FPTKA/assets/142889150/6db0002b-984f-4e7d-a920-e1889ab3be70)
 
-##Instalasi
+### Instalasi
 1. Install nginx `sudo apt install nginx`
 2. Pengubahan ip pada `index.html`
 ``` html
