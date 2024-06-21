@@ -4,7 +4,9 @@
 
 </div>
 
+    
 # Kelompok C7
+    
 ### Fikri Aulia As Sa'adi - 5027231026
 
 ### Rama Owarianto Putra Suharjito - 50272310249
@@ -14,6 +16,42 @@
 ### Hasan - 5027231073
 
 ### Nabiel Nizar Anwari - 5027231087
+
+# a. Rincian Harga VM
+
+### VM1 : WORKER 1
+Spesifikasi : 2GB Memory, 1 AMD vCPU, 50GB Disk NVMe SSD, dan 2 TB transfer
+Biaya : 14$
+Berperan sebagai salah satu app worker yang menangani permintaan aplikasi dari load balancer.
+
+![Screenshot 2024-06-14 110229](https://github.com/ch0clat/FPTKA/assets/142889150/f59fbad8-57e1-4d04-89b9-512d3272dabf)
+
+
+### VM2 : WORKER 2
+Spesifikasi : 1GB Memory, 1 Intel vCPU, 35GB Disk NVMe SSD, dan 1 TB transfer
+VM2 juga berfungsi sebagai app worker yang membantu memproses permintaan aplikasi dari load balancer.
+
+
+![Screenshot 2024-06-14 110240](https://github.com/ch0clat/FPTKA/assets/142889150/0f41f03c-e37e-437e-a939-4b503104bb28)
+
+
+### MongoDB
+Spesifikasi :  1GB Memory, 1 vCPU, dan 15GB Disk NVMe SSD.
+Digunakan sebagai database untuk menyimpan data yang diperlukan oleh aplikasi.
+
+![Screenshot 2024-06-14 110157](https://github.com/ch0clat/FPTKA/assets/142889150/a437a9a9-8e0f-4095-85b1-74b4b08c7d9b)
+
+
+### Load Balancing
+Spesifikasi : Terdiri dari 2 nodes dan mampu menangani koneksi simultan hingga 1000, dengan kemampuan 10000 RPS (Requests Per Second) dan 250 SSL CPS (Connections Per Second).
+Bertugas mendistribusikan permintaan dari pengguna ke VM1 dan VM2. Ini memastikan bahwa beban kerja dibagi secara merata
+
+![Screenshot 2024-06-14 110123](https://github.com/ch0clat/FPTKA/assets/142889150/086010ed-f5df-4904-884c-87b173e140eb)
+
+
+### Total Harga :
+![Screenshot 2024-06-14 111808](https://github.com/ch0clat/FPTKA/assets/142889150/6db0002b-984f-4e7d-a920-e1889ab3be70)
+
 
 ![image](https://github.com/ch0clat/FPTKA/assets/128571877/63d02ffb-55c1-44f8-b978-0762cc4ae038)
 
