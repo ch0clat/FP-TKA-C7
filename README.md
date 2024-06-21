@@ -182,6 +182,7 @@ if __name__ == '__main__':
 ![image](https://github.com/ch0clat/FPTKA/assets/128571877/e8f77a2e-e68d-48d9-bb32-c16eafd4086e)
 
 ## Locust
+1. jumlah Request per seconds (RPS) maksimum yang dapat ditangani oleh server dengan durasi waktu load testing 60 detik? (tingkat failure harus 0%)
 
 ![github-small](https://github.com/bielnzar/TKAC7.github.io/blob/main/1_user.png)
 
