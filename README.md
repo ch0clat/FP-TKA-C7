@@ -17,16 +17,8 @@
 
 ### Nabiel Nizar Anwari - 5027231087
 
-
-# Rancangan Desain Arsitektur
-
-
-
-![image](https://github.com/ch0clat/FPTKA/assets/151866048/96231efe-7d6b-4de1-ade1-429a29dfd62a)
-
-
-
 # Permasalahan
+
 Anda adalah seorang lulusan Teknologi Informasi, sebagai ahli IT, salah satu kemampuan yang harus dimiliki adalah Keampuan merancang, membangun, mengelola aplikasi berbasis komputer menggunakan layanan awan untuk memenuhi kebutuhan organisasi.
 
 Pada suatu saat anda mendapatkan project untuk mendeploy sebuah aplikasi Sentiment Analysis dengan komponen Backend menggunakan python: sentiment-analysis.py dengan spesifikasi sebagai berikut
@@ -190,4 +182,19 @@ if __name__ == '__main__':
 ![image](https://github.com/ch0clat/FPTKA/assets/128571877/e8f77a2e-e68d-48d9-bb32-c16eafd4086e)
 
 
+Kesimpulan:
+
+1. Kami telah berhasil men-deploy aplikasi Sentiment Analysis dengan komponen backend menggunakan Python.
+Infrastruktur yang digunakan meliputi:
+
+2. Kami menggunakan dua VM worker (VM1 dan VM2) untuk menangani permintaan aplikasi, database MongoDB untuk penyimpanan data, Load Balancer untuk mendistribusikan beban kerja
+
+3. Alat yang kami digunakan mencakup:
+    - Nginx sebagai web server
+    - Flask sebagai framework Python untuk backend
+    - Gunicorn sebagai WSGI HTTP Server
+    - TextBlob untuk analisis sentimen
+    - PyMongo untuk koneksi ke MongoDB
+
+4. Aplikasi berhasil dijalankan dan dapat melakukan analisis sentimen serta menyimpan riwayat analisis.
 
