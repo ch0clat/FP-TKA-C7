@@ -183,6 +183,7 @@ if __name__ == '__main__':
 
 ## Locust
 
+!(github-small)[https://github.com/bielnzar/TKAC7.github.io/blob/main/1_user.png]
 
 ## Kesimpulan
 
