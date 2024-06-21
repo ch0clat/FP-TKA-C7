@@ -182,7 +182,7 @@ if __name__ == '__main__':
 ![image](https://github.com/ch0clat/FPTKA/assets/128571877/e8f77a2e-e68d-48d9-bb32-c16eafd4086e)
 
 
-Kesimpulan:
+## Kesimpulan
 
 1. Kami telah berhasil men-deploy aplikasi Sentiment Analysis dengan komponen backend menggunakan Python.
 Infrastruktur yang digunakan meliputi:
