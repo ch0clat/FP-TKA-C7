@@ -17,7 +17,13 @@
 
 ### Nabiel Nizar Anwari - 5027231087
 
-# a. Rincian Harga VM
+# Permasalahan
+
+Anda adalah seorang lulusan Teknologi Informasi, sebagai ahli IT, salah satu kemampuan yang harus dimiliki adalah Keampuan merancang, membangun, mengelola aplikasi berbasis komputer menggunakan layanan awan untuk memenuhi kebutuhan organisasi.
+
+Pada suatu saat anda mendapatkan project untuk mendeploy sebuah aplikasi Sentiment Analysis dengan komponen Backend menggunakan python: sentiment-analysis.py dengan spesifikasi sebagai berikut
+
+# Rincian Harga VM
 
 ### VM1 : WORKER 1
 Spesifikasi : 2GB Memory, 1 AMD vCPU, 50GB Disk NVMe SSD, dan 2 TB transfer
