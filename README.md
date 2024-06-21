@@ -166,3 +166,14 @@ if __name__ == '__main__':
 9. Run Flask App dengan gunicorn `gunicorn -w 4 -b 0.0.0.0:5000 sentiment-analysis:app`
 
 ![image](https://github.com/ch0clat/FPTKA/assets/128571877/336faa64-00e2-4a4f-966a-a9d205906a62)
+
+## API & Interface
+
+![image](https://github.com/ch0clat/FPTKA/assets/128571877/3e49ac8e-df91-4ca9-bf6c-e946a8064e75)
+
+![image](https://github.com/ch0clat/FPTKA/assets/128571877/13d99568-9453-46a7-bffb-7e0c76456509)
+
+![image](https://github.com/ch0clat/FPTKA/assets/128571877/e8f77a2e-e68d-48d9-bb32-c16eafd4086e)
+
+
+
