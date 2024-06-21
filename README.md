@@ -5,16 +5,16 @@
 </div>
 
 
-## Kelompok C7
-Fikri Aulia As Sa'adi - 5027231026
+# Kelompok C7
+### Fikri Aulia As Sa'adi - 5027231026
 
-Rama Owarianto Putra Suharjito - 50272310249
+### Rama Owarianto Putra Suharjito - 50272310249
 
-Abhirama Triadyatma Hermawan  - 5027231061
+### Abhirama Triadyatma Hermawan  - 5027231061
 
-Hasan - 5027231073
+### Hasan - 5027231073
 
-Nabiel Nizar Anwari - 5027231087
+### Nabiel Nizar Anwari - 5027231087
 
 
 ![image](https://github.com/ch0clat/FPTKA/assets/128571877/63d02ffb-55c1-44f8-b978-0762cc4ae038)
