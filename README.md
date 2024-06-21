@@ -181,6 +181,8 @@ if __name__ == '__main__':
 
 ![image](https://github.com/ch0clat/FPTKA/assets/128571877/e8f77a2e-e68d-48d9-bb32-c16eafd4086e)
 
+## Locust
+
 
 ## Kesimpulan
 
