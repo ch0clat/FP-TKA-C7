@@ -119,7 +119,6 @@ server {
         index index.html;
     }
 
-    # Reverse proxy to Gunicorn for /history
     location /history {
         proxy_pass http://127.0.0.1:5000/history;
         proxy_set_header Host $host;
@@ -189,9 +188,9 @@ if __name__ == '__main__':
 
 ## API & Interface
 
-![image](https://github.com/ch0clat/FPTKA/assets/128571877/3e49ac8e-df91-4ca9-bf6c-e946a8064e75)
+![image](https://github.com/ch0clat/FPTKA/assets/128571877/92431ffb-d7d6-4278-8af5-30d75bd07b1f)
 
-![image](https://github.com/ch0clat/FPTKA/assets/128571877/13d99568-9453-46a7-bffb-7e0c76456509)
+![image](https://github.com/ch0clat/FPTKA/assets/128571877/9f01f2b1-dd7a-4ba1-b5c3-3e384f97f607)
 
 ![image](https://github.com/ch0clat/FPTKA/assets/128571877/e8f77a2e-e68d-48d9-bb32-c16eafd4086e)
 
@@ -218,7 +217,9 @@ if __name__ == '__main__':
 
 
 
-## Kesimpulan
+## Kesimpulan & Saran
+
+### Kesimpulan
 
 1. Kami telah berhasil men-deploy aplikasi Sentiment Analysis dengan komponen backend menggunakan Python.
 Infrastruktur yang digunakan meliputi:
@@ -234,3 +235,8 @@ Infrastruktur yang digunakan meliputi:
 
 4. Aplikasi berhasil dijalankan dan dapat melakukan analisis sentimen serta menyimpan riwayat analisis.
 
+### Saran
+
+1. Untuk pengerjaan projek serupa dapat di sarankan untuk menggunakan 3 vm dimana satu vm adalah load balancer yang kita konfigurasi sendiri. Ini dikarenakan load balancer yang di sediakan oleh DigitalOcean tidak mempunyai fleksibilitas dalam konfigurasi dibandingkan dengan load-balancer yang kita konfigurasi sendiri. Selain fleksibilitas load balancer yang di sediakan digital ocean mempunyai harga yang cukup tinggi dibandingkan mengkonfigurasi load-balancer kita sendiri. 
+
+3. Selain load balncer, database juga sangat mempengaruhi rps. Untuk mencapai rps yang optimal kita dapat menganalisis terlebih dahulu size database yang kita perlukan. Sehingga database tidak akan memperlambat sistem kita jika database sudah terlalu penuh.
