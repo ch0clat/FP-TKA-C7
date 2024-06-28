@@ -1,21 +1,21 @@
 <div align=center>
 
-# Laporan Pengerjaan - Final Project TKA
+# Laporan Pengerjaan - Final Project
+## Mata Kuliah Teknologi Komputasi Awan 
+### Dosen Pengampu :  	Fuad Dary Rosyadi, S.Kom., M.Kom.
 
 </div>
 
     
 # Kelompok C7
     
-### Fikri Aulia As Sa'adi - 5027231026
+- [Fikri Aulia As Sa'adi - 5027231026](https://github.com/FikriAuliaa)
+- [Rama Owarianto Putra Suharjito - 50272310249](https://github.com/masibelajar)
+- [Abhirama Triadyatma Hermawan  - 5027231061](https://github.com/ch0clat)
+- [Hasan - 5027231073](https://github.com/Hasanzs)
+- [Nabiel Nizar Anwari - 5027231087](https://github.com/bielnzar)
 
-### Rama Owarianto Putra Suharjito - 50272310249
-
-### Abhirama Triadyatma Hermawan  - 5027231061
-
-### Hasan - 5027231073
-
-### Nabiel Nizar Anwari - 5027231087
+Rincian Soal Penugasan Final Project [bisa diakses disini](https://github.com/fuaddary/fp-tka)
 
 # Permasalahan
 
