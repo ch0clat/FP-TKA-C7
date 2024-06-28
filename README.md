@@ -112,10 +112,24 @@ Bertugas mendistribusikan permintaan dari pengguna ke VM1 dan VM2. Ini memastika
 ```
 server {
     listen 80;
-    server_name 146.190.99.144; #IP VM
+    server_name 167.172.5.187;
 
-    location / {
-        proxy_pass http://127.0.0.1:5000;
+          location / {
+        root /var/www/html;
+        index index.html;
+    }
+
+    # Reverse proxy to Gunicorn for /history
+    location /history {
+        proxy_pass http://127.0.0.1:5000/history;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+
+        location /analyze {
+        proxy_pass http://127.0.0.1:5000/analyze;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -184,12 +198,24 @@ if __name__ == '__main__':
 ## Locust
 1. jumlah Request per seconds (RPS) maksimum yang dapat ditangani oleh server dengan durasi waktu load testing 60 detik? (tingkat failure harus 0%)
    
-![github-small](https://github.com/bielnzar/TKAC7.github.io/blob/main/1_user.png)
+![image](https://github.com/ch0clat/FPTKA/assets/128571877/b491567a-b527-4d40-aa81-63f636686866)
 
 2. Berapa jumlah peak concurrency maksimum yang dapat ditangani oleh server dengan spawn rate 50 dan durasi waktu load testing 60 detik? (tingkat failure harus 0%)
-3. Berapa jumlah peak concurrency maksimum yang dapat ditangani oleh server dengan spawn rate 100 dan durasi waktu load testing 60 detik? (tingkat failure harus %)
-4. Berapa jumlah peak concurrency maksimum yang dapat ditangani oleh server dengan spawn rate 200 dan durasi waktu load testing 60 detik? (tingkat failure harus 0%)
-5. Berapa jumlah peak concurrency maksimum yang dapat ditangani oleh server dengan spawn rate 500 dan durasi waktu load testing 60 detik? (tingkat failure harus 0%)
+
+![image](https://github.com/ch0clat/FPTKA/assets/128571877/b491567a-b527-4d40-aa81-63f636686866)
+
+4. Berapa jumlah peak concurrency maksimum yang dapat ditangani oleh server dengan spawn rate 100 dan durasi waktu load testing 60 detik? (tingkat failure harus 0%)
+
+![locust1](https://github.com/ch0clat/FPTKA/assets/128571877/f5f06051-021e-4e91-adfb-d21c4ff336d3)
+
+6. Berapa jumlah peak concurrency maksimum yang dapat ditangani oleh server dengan spawn rate 200 dan durasi waktu load testing 60 detik? (tingkat failure harus 0%)
+
+![image](https://github.com/ch0clat/FPTKA/assets/128571877/f423d277-d0a7-4c9e-b2e2-ecccc45766f4)
+
+7. Berapa jumlah peak concurrency maksimum yang dapat ditangani oleh server dengan spawn rate 500 dan durasi waktu load testing 60 detik? (tingkat failure harus 0%)
+
+![image](https://github.com/ch0clat/FPTKA/assets/128571877/db7b4bf9-6378-448a-b8df-1c4297b54a36)
+
 
 
 ## Kesimpulan
