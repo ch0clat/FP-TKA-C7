@@ -240,3 +240,9 @@ Infrastruktur yang digunakan meliputi:
 1. Untuk pengerjaan projek serupa dapat di sarankan untuk menggunakan 3 vm dimana satu vm adalah load balancer yang kita konfigurasi sendiri. Ini dikarenakan load balancer yang di sediakan oleh DigitalOcean tidak mempunyai fleksibilitas dalam konfigurasi dibandingkan dengan load-balancer yang kita konfigurasi sendiri. Selain fleksibilitas load balancer yang di sediakan digital ocean mempunyai harga yang cukup tinggi dibandingkan mengkonfigurasi load-balancer kita sendiri. 
 
 3. Selain load balncer, database juga sangat mempengaruhi rps. Untuk mencapai rps yang optimal kita dapat menganalisis terlebih dahulu size database yang kita perlukan. Sehingga database tidak akan memperlambat sistem kita jika database sudah terlalu penuh.
+
+## Video Revisi
+
+- <p><a href = "https://drive.google.com/file/d/1NQyg0UPd-DB5Q94WS4IbcLghOfKsOZTN/view?usp=sharing">Link Video Revisi</a></p>
+
+
